@@ -17,12 +17,12 @@ Install follwing files:
 2. ORAMARKER_PKG.sql and ORAMARKER_PKG_body.sql   -- Creates package oramarker_pkg
 3. (Optional) Test template package TEMPLATE_REPO_PKG.sql TEMPLATE_REPO_PKG_body.sql  -- Create a templage package
 
-How to user oramarer?
+How to use oramarer?
 
-There is two approaches to use oramarker.
+There are two approaches to use oramarker.
 
 1. Simple text merge .
-    
+
     declare
        v_anydata_map ANYDATA_MAP_T;
 v_template VARCHAR2(32667);
